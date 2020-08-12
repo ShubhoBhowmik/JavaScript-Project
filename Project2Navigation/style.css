@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbarheader{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+
+}
+
+.navbarbutton{
+    align-self: center;
+    border: 5px solid blue;
+    cursor: pointer;
+
+}
+
+.bar1,.bar2,.bar3{
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+    background-color: white;
+
+
+}
+.navbarlinks{
+    height: 0;
+    overflow: hidden;
+
+    
+}
+.navbarshow{
+    height: 250px;
+
+}
+
+.navbarlink{
+    background-color: black;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    transition: all 1s ease;
+    
+
+}
+.navbarlink:hover{
+    padding-left: 3px;
+    background-color: white;
+    color: black;
+}
+

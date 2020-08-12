@@ -1,0 +1,20 @@
+body{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgcolorBtn{
+    padding: 14px;
+    border: 3px solid white;
+    border-radius: 8px;
+    color:white;
+    background-color: teal;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bgcolorBtn:hover{
+    background-color: black;
+}
